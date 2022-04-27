@@ -1,0 +1,439 @@
+﻿* {
+    font-family: 'Arimo', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body {
+    background-image: url('IMG/5026563.jpg');
+}
+.logo {
+    float: left;
+    width: 350px;
+    height: 150px;
+    border: 5px #da0404 solid;
+    border-radius: 20px;
+}
+.botoncitos {
+    background-color: #808080;
+    margin-right: 3px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    position:sticky;
+}
+.boton_i {
+    font-size: 20px;
+    color: #CCD6D0;
+    border: 3px #da0404 solid;
+    border-radius:20px;
+    background-color: #da0404;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
+}
+.boton_p {
+    font-size: 20px;
+    color: #da0404;
+    border: 3px #da0404 solid;
+    border-radius:20px;
+    background-color: #CCD6D0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
+}
+.boton_log {
+    float: right;
+    font-size: 20px;
+    color: #da0404;
+    border: 3px #da0404 solid;
+    border-radius: 20px;
+    background-color: #CCD6D0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
+}
+.icono{
+    width:15px;
+    height:15px;
+}
+.icono-mision {
+    width: 25px;
+    height: 25px;
+}
+.avatar {
+    width: 70px;
+    height: 70px;
+}
+.tituloP {
+    font-size: 200px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #da0404;
+    font-size: 70px;
+    text-shadow: 3px 5px 5px #808080;
+}
+.encabezado {
+    border-radius: 20px;
+    margin: 1%;
+    background-color: #CCD6D0;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    box-shadow: 0px 20px 20px #808080;
+}
+.parrafos {
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    border: 5px #da0404 solid;
+    border-radius:20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #808080;
+}
+.lista-servicios{
+    padding-left:50px;
+    list-style-type:circle;
+    text-align:left;
+}
+.subtituloP {
+    font-size: 150px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    color: #e4dede;
+    font-size: 40px;
+    text-shadow: 3px 5px 5px #000000;
+}
+.sub_subtituloP {
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: #da0404;
+    text-align: center;
+    padding-top:15px;
+    padding-bottom:15px;
+    color: #CCD6D0;
+}
+.valores {
+    background-color: #808080;
+    border: 2px solid #da0404;
+    border-radius: 25px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    margin-right: 400px;
+    margin-left: 100px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    text-align: left;
+    width: 40%;
+    box-shadow: 10px 10px 20px -10px #01051f;
+    float: right;
+    margin-left: 15px;
+    color: #000000;
+}
+.titulo_mision {
+    font-size: 25px;
+    color: #CCD6D0;
+    background-color: #da0404;
+    border: 2px solid #da0404;
+    border-radius: 25px;
+    margin-top: 15px;
+    padding: 5px;
+    padding-left: 5px;
+    text-align: center;
+    width: 40%;
+    float: left;
+    margin-left: 15px;
+}
+.titulo_valores {
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: #da0404;
+    text-align: center;
+    margin-top:0px;
+    padding: 5px;
+    padding-left: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #CCD6D0;
+}
+#mision {
+    background-color: #808080;
+    border: 2px solid #da0404;
+    border-radius: 25px;
+    margin-top:15px;
+    margin-bottom:50px;
+    margin-right:150px;
+    padding: 5px;
+    padding-left: 5px;
+    padding-bottom:20px;
+    text-align: center;
+    width: 40%;
+    box-shadow: 10px 10px 20px -10px #01051f;
+    float: left;
+    margin-left: 15px;
+    color: #000000;
+}
+#vision {
+    background-color: #808080;
+    border: 2px solid #da0404;
+    border-radius: 25px;
+    margin-top: 15px;
+    margin-bottom:50px;
+    margin-right:5px;
+    padding: 5px;
+    padding-left: 5px;
+    padding-bottom:20px;
+    text-align: center;
+    width: 40%;
+    box-shadow: 10px 10px 20px -10px #01051f;
+    float: left;
+    margin-left: 5px;
+    color: #000000;
+}
+.titulo_vision {
+    font-size: 25px;
+    color: #CCD6D0;
+    background-color: #da0404;
+    border: 2px solid #da0404;
+    border-radius: 25px;
+    margin-top: 15px;
+    padding: 5px;
+    padding-left: 5px;
+    text-align: center;
+    width: 40%;
+    float: left;
+    margin-left: 15px;
+}
+.imagen-Principal {
+    border: 5px #da0404 solid;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 200px;
+    width: 400px;
+    margin-right: 350px;
+    margin-left: 550px;
+}
+.imagen-infor {
+    border: 5px #da0404 solid;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 500px;
+    width: 700px;
+    margin-right: 350px;
+    margin-left: 450px;
+}
+
+/*TABLA INFO*/
+.tablita {
+    margin-left:500px;
+    margin-top:0px;
+    margin-bottom: 100px;
+}
+.categoria {
+    border: 5px #da0404 solid;
+    border-radius: 25px;
+    text-align: left;
+    padding-left: 50px;
+    padding-right 50px;
+    font-size: 30px;
+    background-color: #da0404;
+    color: #CCD6D0;
+}
+.info a:link{
+    color:#000000;
+}
+.info a:hover {
+    color: #CCD6D0;
+}
+.info {
+    border: 5px #da0404 solid;
+    border-radius:20px;
+    background-color: #808080;
+    font-size: 25px;
+    color: #000000;
+    padding-left: 50px;
+    padding-right 50px;
+    margin-bottom: 100px;
+    text-align: left;
+}
+/*CARRUSEL*/
+.carrusel {
+    margin-top:40px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.carrusel-global{
+    margin-top:100px;
+}
+
+.carrusel ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ max-width: 1030px;
+ /* max-width: 510px; */
+ scroll-behavior: smooth;
+    }
+
+.carrusel-fotos {
+ display: flex;
+ gap: 10px;
+ overflow: auto;
+}
+
+.carrusel-fotos img {
+ background: black;
+  border: 4px solid #da0404;
+  border-radius:20px;
+  width: 300px;
+  height: 200px;
+  object-fit: contain;
+    }
+
+.carrusel-menu {
+    display: none;
+}
+
+@media screen and (min-width: 500px) {
+    .carrusel-fotos {
+        overflow: hidden;
+    }
+
+        .carrusel-fotos img {
+            width: 500px;
+            height: 400px;
+        }
+
+ .carrusel-menu {
+  display: block;
+    }
+
+ .carrusel-menu img {
+  box-sizing: border-box;
+  width: 50px;
+  height: 40px;
+  border: 10px solid black;
+        }
+.carrusel-menu img:hover {
+ border: none;
+            }
+}
+/*FORMULARIO*/
+ .formulario {
+   text-align: center;
+   color:#000000;
+   margin-top: 0px;
+   border-radius: 2%;
+   margin-left: 400px;
+   margin-right: 300px;
+  }
+.input-contenedor {
+    margin-bottom: 1px;
+    background-color:#808080;
+    border: 1px solid #da0404;
+    border-radius:20px;
+    padding-bottom:0px;
+    font-size:25px;
+    width: 850px;
+    height: 100px;
+}
+.input-celular {
+    margin-bottom: 1px;
+    background-color: #808080;
+    border: 1px solid #da0404;
+    border-radius: 20px;
+    font-size: 25px;
+    width: 850px;
+    height: 100px;
+}
+/*LOGIN*/
+.registro {
+    background-color: #808080;
+    border: 2px solid #da0404;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    margin-left: 500px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 40%;
+    box-shadow: 10px 10px 20px -10px #01051f;
+    color: #000000;
+}
+.politicas {
+    background-color: #808080;
+    border: 2px solid #da0404;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 300px;
+    margin-left: 50px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 40%;
+    box-shadow: 10px 10px 20px -10px #01051f;
+    color: #000000;
+}
+.registro a:link {
+    color: #000000;
+}
+.registro a:visited {
+    color: #da0404;
+}
+
+.registro a:hover {
+    color: #CCD6D0;
+}
+
+/*FOOTER*/
+.footer-principal {
+    text-align: center;
+    font-size: 25px;
+    border-radius: 20px;
+    color: #ffffff;
+    margin: 1%;
+    background-color: #da0404;
+    margin-top: 650px;
+    margin-bottom: 0px;
+    padding-bottom: 25px;
+}
+.footer-servicios {
+    text-align: center;
+    font-size: 25px;
+    border-radius: 20px;
+    color: #ffffff;
+    margin: 1%;
+    background-color: #da0404;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding-bottom: 25px;
+}
+
+#footer a:link{
+    color:white
+}
+#footer a:hover{
+    color: #808080
+}
+body {
+   
+}
